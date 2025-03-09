@@ -22,6 +22,10 @@
 /* On demand includes */
 #include <dt-bindings/zmk/pointing.h>
 
+/* */ 
+#define HYPER LC(LS(LG(LALT)))
+#define MEH LC(LG(LALT))
+
 /* Automatically generated layer name #define */
 #define LAYER_HRM_macos 0
 #define LAYER_HRM 1
